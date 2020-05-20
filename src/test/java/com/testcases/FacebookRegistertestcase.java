@@ -22,9 +22,9 @@ public class FacebookRegistertestcase extends Library{
 		Facebookregister regpage = new Facebookregister(driver);
 		regpage.fname("abcd1");
 		regpage.lastname("abcd2");
-		regpage.lname("12345");
-		regpage.newpwd("ajhg");
-		regpage.birthday("Jun",10,"2010");
+		//regpage.lname("12345");
+		//regpage.newpwd("ajhg");
+		//regpage.birthday("Jun",10,"2010");
 		
 	}
 	

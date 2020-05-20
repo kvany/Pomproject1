@@ -3,8 +3,8 @@
 <suite thread-count="2" name="Suite" parallel="classes">
   <test thread-count="2" name="Test" parallel="classes">
     <classes>
-      <class name="com.testcases.logintestcase"/>
-        <class name="com.testcases.Registertestcase"/>
+      <class name="com.testcases.Facebooklogintestcase"/>
+        <class name="com.testcases.FacebookRegistertestcase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

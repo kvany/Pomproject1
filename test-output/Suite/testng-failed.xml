@@ -3,13 +3,13 @@
 <suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <test thread-count="2" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="com.testcases.Registertestcase">
+      <class name="com.testcases.FacebookRegistertestcase">
         <methods>
-          <include name="startup"/>
           <include name="signup"/>
           <include name="close"/>
+          <include name="startup"/>
         </methods>
-      </class> <!-- com.testcases.Registertestcase -->
+      </class> <!-- com.testcases.FacebookRegistertestcase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

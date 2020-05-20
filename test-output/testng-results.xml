@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13564" started-at="2020-05-18T03:31:44Z" finished-at="2020-05-18T03:31:58Z">
+  <suite name="Suite" duration-ms="28679" started-at="2020-05-19T21:29:37Z" finished-at="2020-05-19T21:30:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13564" started-at="2020-05-18T03:31:44Z" finished-at="2020-05-18T03:31:58Z">
-      <class name="com.testcases.OHRMloginusingPOMTestcases">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.testcases.OHRMloginusingPOMTestcases@262b2c86]" name="startUp" is-config="true" duration-ms="11060" started-at="2020-05-18T03:31:44Z" finished-at="2020-05-18T03:31:55Z">
+    <test name="Test" duration-ms="28679" started-at="2020-05-19T21:29:37Z" finished-at="2020-05-19T21:30:06Z">
+      <class name="com.testcases.Facebooklogintestcase">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testcases.Facebooklogintestcase@371a67ec]" name="startup" is-config="true" duration-ms="16397" started-at="2020-05-19T21:29:37Z" finished-at="2020-05-19T21:29:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginpage()[pri:0, instance:com.testcases.OHRMloginusingPOMTestcases@262b2c86]" name="loginpage" duration-ms="1248" started-at="2020-05-18T03:31:55Z" finished-at="2020-05-18T03:31:56Z">
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.Facebooklogintestcase@371a67ec]" name="login" duration-ms="1639" started-at="2020-05-19T21:29:53Z" finished-at="2020-05-19T21:29:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.OHRMloginusingPOMTestcases@262b2c86]" name="close" is-config="true" duration-ms="1231" started-at="2020-05-18T03:31:56Z" finished-at="2020-05-18T03:31:58Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.Facebooklogintestcase@371a67ec]" name="close" is-config="true" duration-ms="10587" started-at="2020-05-19T21:29:55Z" finished-at="2020-05-19T21:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.testcases.OHRMloginusingPOMTestcases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.testcases.Facebooklogintestcase -->
+      <class name="com.testcases.FacebookRegistertestcase">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testcases.FacebookRegistertestcase@5ed828d]" name="startup" is-config="true" duration-ms="15906" started-at="2020-05-19T21:29:37Z" finished-at="2020-05-19T21:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="signup()[pri:0, instance:com.testcases.FacebookRegistertestcase@5ed828d]" name="signup" duration-ms="703" started-at="2020-05-19T21:29:53Z" finished-at="2020-05-19T21:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.FacebookRegistertestcase@5ed828d]" name="close" is-config="true" duration-ms="1186" started-at="2020-05-19T21:29:54Z" finished-at="2020-05-19T21:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testcases.FacebookRegistertestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

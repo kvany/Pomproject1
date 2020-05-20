@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28777" started-at="2020-05-19T21:59:38Z" finished-at="2020-05-19T22:00:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28777" started-at="2020-05-19T21:59:38Z" finished-at="2020-05-19T22:00:07Z">
+      <class name="com.testcases.Facebooklogintestcase">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testcases.Facebooklogintestcase@26aa12dd]" name="startup" is-config="true" duration-ms="16890" started-at="2020-05-19T21:59:38Z" finished-at="2020-05-19T21:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.Facebooklogintestcase@26aa12dd]" name="login" duration-ms="1579" started-at="2020-05-19T21:59:55Z" finished-at="2020-05-19T21:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.Facebooklogintestcase@26aa12dd]" name="close" is-config="true" duration-ms="10262" started-at="2020-05-19T21:59:57Z" finished-at="2020-05-19T22:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testcases.Facebooklogintestcase -->
+      <class name="com.testcases.FacebookRegistertestcase">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testcases.FacebookRegistertestcase@3fd7a715]" name="startup" is-config="true" duration-ms="16124" started-at="2020-05-19T21:59:38Z" finished-at="2020-05-19T21:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="signup()[pri:0, instance:com.testcases.FacebookRegistertestcase@3fd7a715]" name="signup" duration-ms="790" started-at="2020-05-19T21:59:54Z" finished-at="2020-05-19T21:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.FacebookRegistertestcase@3fd7a715]" name="close" is-config="true" duration-ms="1658" started-at="2020-05-19T21:59:55Z" finished-at="2020-05-19T21:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testcases.FacebookRegistertestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
